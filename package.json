@@ -1,7 +1,7 @@
 {
-  "name": "v-press",
+  "name": "vue-press-directive",
   "version": "1.0.0",
-  "description": "",
+  "description": "vue long press directive",
   "main": "./dist/index.js",
   "scripts": {
     "build": "NODE_ENV=production node ./scripts/build.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZhaZhengRefn/v-press.git"
+    "url": "git+https://github.com/ZhaZhengRefn/vue-press-directive.git"
   },
   "author": "zheng_refn",
   "bugs": {
-    "url": "https://github.com/ZhaZhengRefn/v-press/issues"
+    "url": "https://github.com/ZhaZhengRefn/vue-press-directive/issues"
   },
-  "homepage": "https://github.com/ZhaZhengRefn/v-press#readme",
+  "homepage": "https://github.com/ZhaZhengRefn/vue-press-directive#readme",
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.23.0",
