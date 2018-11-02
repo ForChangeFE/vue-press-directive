@@ -61,4 +61,4 @@ typings/
 .next
 
 /dist
-bundle.js
+/example/bundle.js
