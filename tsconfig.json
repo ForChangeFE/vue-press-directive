@@ -5,10 +5,10 @@
   "moduleResolution": "node",
   "compilerOptions": {
     "lib": [
-        "dom",
-        "es2015",
-        "scripthost",
-        "es2015.promise"
+      "dom",
+      "es2015",
+      "scripthost",
+      "es2015.promise"
     ],
     "allowSyntheticDefaultImports": true,
     "strictNullChecks": true    

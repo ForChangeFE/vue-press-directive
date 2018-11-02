@@ -2770,6 +2770,10 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
+vue@^2.5.17:
+  version "2.5.17"
+  resolved "http://registry.npm.taobao.org/vue/download/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
+
 wcwidth@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/wcwidth/download/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
