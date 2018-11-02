@@ -22,7 +22,7 @@ const devConf = {
       }),      
       nodeResolve(),
       commonjs({
-        // include: 'node_modules/foobar-js/**',
+        include: 'node_modules/foobar-js/**',
       }),       
       serve({
         contentBase: './example/',
@@ -36,7 +36,7 @@ const devConf = {
     ],
   },
   outputOptions: {
-    name: 'v-press',
+    name: 'VPress',
     file: './example/bundle.js',
     format: 'iife',    
   },

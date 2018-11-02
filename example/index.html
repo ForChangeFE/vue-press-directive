@@ -5,11 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>v-press</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="./bundle.js"></script>
+  <style>
+    article{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 64px;
+    }
+    h1{
+      display: inline-block;
+      font-size: 32px;
+    }
+    p{
+      text-align: center;
+      font-size: 20px;
+    }
+    button{
+      margin: 0 auto;
+      display: block;
+      padding: 16px;
+      font-size: 16px;
+      border: 1px solid green;
+      border-radius: 4px;
+    }
+    img{
+      margin: 10px;
+      width: 70vw;
+      height: 70vw;
+      overflow: hidden;
+    }
+    button:active{
+      opacity: 0.6;
+    }
+  </style>
 </head>
 <body>
-  <h1>v-press</h1>
+  <div id="app"></div>
   <script>
+    Vue.use(VPress)
+    new Vue({
+      template: `
+        <article>
+          <h1>v-press</h1>
+          <section>
+            <p>{{count}}</p>
+            <button v-press:100="handler">Long press this button.</button>
+          </section>          
+        </article>
+      `,
+      el: '#app',
+      data() {
+        return {
+          count: 0
+        }
+      },
+      methods: {
+        handler() {
+          this.count++;
+        }
+      },
+    })
   </script>
 </body>
 </html>

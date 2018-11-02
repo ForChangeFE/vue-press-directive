@@ -27,7 +27,7 @@ const prodConf = {
     ],    
   },
   outputOptions: {
-    name: 'v-press',
+    name: 'VPress',
     file: './dist/index.js',
     format: 'umd',    
   },
