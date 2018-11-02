@@ -1,6 +1,6 @@
 {
   "name": "vue-press-directive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue long press directive",
   "main": "./dist/index.js",
   "scripts": {
